@@ -50,7 +50,7 @@ Example configs are attached here:
   * :download:`upf.yaml<.configs/upf.yaml>`
 
 .. note::
-   22.04.1 brings changes to the rr.conf, ``coreset0_idx`` is now a required field under *nr_nell_list*. If you are using an old config file with the latest update, you will need to add this to your config file. 
+   22.04.1 brings changes to the rr.conf, ``coreset0_idx`` is now a required field under *nr_cell_list*. If you are using an old config file with the latest update, you will need to add this to your config file. 
 
 
 These config files have been modified to remove certain options that are not essential to this use-case. 
