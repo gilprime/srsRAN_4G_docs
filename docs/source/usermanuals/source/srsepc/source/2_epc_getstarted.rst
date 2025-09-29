@@ -88,7 +88,7 @@ Connecting UEs to the Internet
 
 To allow UEs to connect to the Internet, it is necessary to perform IP masquerading. Without masquerading, the Linux kernel will not do packet forwarding from one subnet to another.
 
-To enable this, you can run a convenience script ``sudo srsepc_if_masq <out_interface>``, where *out_interface* is the interface that connects the PC to the Internet.
+To enable this, you can run a convenience script ``sudo srsepc_if_masq.sh <out_interface>``, where *out_interface* is the interface that connects the PC to the Internet.
 
 .. warning::
 
